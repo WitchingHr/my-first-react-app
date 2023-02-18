@@ -13,12 +13,43 @@
   color: white;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+}
+
 ul {
   padding: 0;
-  width: 200px;
 }
 
 .list-item {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+}
+
+.task-name {
+  flex-grow: 1;
+  text-align: left;
+}
+
+input {
+  font-size: 25px;
+  flex-grow: 1;
+}
+
+.add {
+  width: 100px;
+}
+
+.delete {
+  width: 55px;
+}
+
+.edit,
+.save {
+  width: 45px;
 }
